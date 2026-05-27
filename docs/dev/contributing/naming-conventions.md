@@ -10,9 +10,9 @@ Use clear nouns that describe purpose.
 
 (GOOD)
 
-- `devcontainer-python-template` - repository package name
-- `devcontainer-python-template-utils` - optional helper package
-- `devcontainer-python-template-cli` - optional CLI package
+- `terminal-flow` - repository package name
+- `terminal-flow-utils` - optional helper package
+- `terminal-flow-cli` - optional CLI package
 
 (AVOID)
 
@@ -22,7 +22,7 @@ Use clear nouns that describe purpose.
 
 Note: the Python import name (the `src/` folder) uses underscores as required by Python
 (e.g. `devcontainer_python_template`), but the installable package name in `pyproject.toml`
-uses hyphens (e.g. `devcontainer-python-template`).
+uses hyphens (e.g. `terminal-flow`).
 
 ## Modules (Files)
 
