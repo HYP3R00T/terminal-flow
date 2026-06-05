@@ -17,11 +17,11 @@ Use clear nouns that describe purpose.
 (AVOID)
 
 - `core` - too generic
-- `devcontainer_python_template` - underscores are for import/module names, not distribution names
-- `DevcontainerPythonTemplate` - wrong case
+- `terminal_flow` - underscores are for import/module names, not distribution names
+- `TerminalFlow` - wrong case
 
 Note: the Python import name (the `src/` folder) uses underscores as required by Python
-(e.g. `devcontainer_python_template`), but the installable package name in `pyproject.toml`
+(e.g. `terminal_flow`), but the installable package name in `pyproject.toml`
 uses hyphens (e.g. `terminal-flow`).
 
 ## Modules (Files)
